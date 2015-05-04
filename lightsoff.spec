@@ -1,8 +1,8 @@
 %define url_ver	%(echo %{version}|cut -d. -f1,2)
 
 Name:		lightsoff
-Version:	3.14.1
-Release:	%mkrel 3
+Version:	3.16.1.1
+Release:	1
 Summary:	GNOME Lightsoff game
 License:	GPLv2+ and CC-BY-SA
 Group:		Games/Puzzles
@@ -27,13 +27,13 @@ neighbors.
 %setup -q
 
 %build
-%configure2_5x
+%configure
 %make
 
 %install
 %makeinstall_std
 
-%find_lang %{name} --with-gnome --with-help
+%find_lang %{name} --with-gnome
 
 %files -f %{name}.lang
 %license COPYING
