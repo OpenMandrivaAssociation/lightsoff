@@ -41,6 +41,7 @@ neighbors.
 %{_datadir}/applications/%{name}.desktop
 %{_datadir}/glib-2.0/schemas/org.gnome.%{name}.gschema.xml
 %{_iconsdir}/*/*/apps/%{name}.*
+%{_iconsdir}/*/*/apps/%{name}-symbolic.*
 %{_datadir}/%{name}
 %{_datadir}/appdata/%{name}.appdata.xml
 
