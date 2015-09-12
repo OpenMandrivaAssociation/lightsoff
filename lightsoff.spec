@@ -2,7 +2,7 @@
 
 Name:		lightsoff
 Version:	3.16.1.1
-Release:	2
+Release:	3
 Summary:	GNOME Lightsoff game
 License:	GPLv2+ and CC-BY-SA
 Group:		Games/Puzzles
