@@ -16,6 +16,8 @@ BuildRequires:	pkgconfig(librsvg-2.0)
 BuildRequires:	intltool
 BuildRequires:	itstool
 BuildRequires:	libxml2-utils
+BuildRequires:	meson
+BuildRequires:	appstream-util
 # For help
 Requires:	yelp
 
@@ -28,11 +30,11 @@ neighbors.
 %setup -q
 
 %build
-%configure
-%make
+%meson
+%meson_build
 
 %install
-%makeinstall_std
+%meson_install
 
 %find_lang %{name} --with-gnome
 
