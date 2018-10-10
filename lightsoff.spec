@@ -2,7 +2,7 @@
 %define _disable_rebuild_configure 1
 
 Name:		lightsoff
-Version:	3.18.0
+Version:	3.30.0
 Release:	1
 Summary:	GNOME Lightsoff game
 License:	GPLv2+ and CC-BY-SA
