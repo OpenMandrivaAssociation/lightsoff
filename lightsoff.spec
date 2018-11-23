@@ -19,6 +19,7 @@ BuildRequires:	itstool
 BuildRequires:	libxml2-utils
 BuildRequires:	meson
 BuildRequires:	appstream-util
+BuildRequires:  librsvg-vala-devel
 # For help
 Requires:	yelp
 
