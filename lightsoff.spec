@@ -44,9 +44,9 @@ neighbors.
 %files -f %{name}.lang
 %doc COPYING
 %{_bindir}/%{name}
-%{_datadir}/applications/%{name}.desktop
-%{_datadir}/glib-2.0/schemas/org.gnome.%{name}.gschema.xml
-%{_iconsdir}/*/*/apps/%{name}.*
-%{_iconsdir}/hicolor/symbolic/apps/lightsoff-symbolic
+%{_datadir}/applications/org.gnome.LightsOff.desktop
+%{_datadir}/glib-2.0/schemas/org.gnome.LightsOff.gschema.xml
+%{_iconsdir}/*/*/apps/org.gnome.LightsOff.*
+%{_iconsdir}/hicolor/symbolic/apps/org.gnome.LightsOff-symbolic
 %{_datadir}/%{name}
-%{_datadir}/metainfo/lightsoff.appdata.xml
+%{_datadir}/metainfo/org.gnome.LightsOff.appdata.xml
