@@ -47,6 +47,6 @@ neighbors.
 %{_datadir}/applications/org.gnome.LightsOff.desktop
 %{_datadir}/glib-2.0/schemas/org.gnome.LightsOff.gschema.xml
 %{_iconsdir}/*/*/apps/org.gnome.LightsOff.*
-%{_iconsdir}/hicolor/symbolic/apps/org.gnome.LightsOff-symbolic
+#{_iconsdir}/hicolor/symbolic/apps/org.gnome.LightsOff-symbolic
 %{_datadir}/%{name}
 %{_datadir}/metainfo/org.gnome.LightsOff.appdata.xml
