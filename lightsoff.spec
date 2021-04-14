@@ -50,3 +50,5 @@ neighbors.
 %{_iconsdir}/hicolor/symbolic/apps/org.gnome.LightsOff-symbolic.svg
 %{_datadir}/%{name}
 %{_datadir}/metainfo/org.gnome.LightsOff.appdata.xml
+%{_datadir}/dbus-1/services/org.gnome.LightsOff.service
+%{_mandir}/man6/lightsoff.6.*
