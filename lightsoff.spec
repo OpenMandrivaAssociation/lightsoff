@@ -2,8 +2,8 @@
 %define _disable_rebuild_configure 1
 
 Name:		lightsoff
-Version:	40.0.1
-Release:	5
+Version:	46.0
+Release:	1
 Summary:	GNOME Lightsoff game
 License:	GPLv2+ and CC-BY-SA
 Group:		Games/Puzzles
