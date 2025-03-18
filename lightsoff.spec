@@ -2,7 +2,7 @@
 %define _disable_rebuild_configure 1
 
 Name:		lightsoff
-Version:	46.0
+Version:	48.0
 Release:	1
 Summary:	GNOME Lightsoff game
 License:	GPLv2+ and CC-BY-SA
@@ -11,7 +11,7 @@ URL:		https://wiki.gnome.org/Lightsoff
 Source0:	https://download.gnome.org/sources/%{name}/%{url_ver}/%{name}-%{version}.tar.xz
 BuildRequires:	pkgconfig(clutter-1.0) >= 1.0.0
 BuildRequires:	pkgconfig(clutter-gtk-1.0) >= 1.0.0
-BuildRequires:	pkgconfig(gtk+-3.0) >= 3.4.0
+BuildRequires:	pkgconfig(gtk4)
 BuildRequires:	pkgconfig(librsvg-2.0)
 BuildRequires:	pkgconfig(vapigen)
 BuildRequires:	intltool
