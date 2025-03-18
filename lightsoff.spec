@@ -13,6 +13,7 @@ BuildRequires:	pkgconfig(clutter-1.0) >= 1.0.0
 BuildRequires:	pkgconfig(clutter-gtk-1.0) >= 1.0.0
 BuildRequires:	pkgconfig(gtk4)
 BuildRequires:	pkgconfig(librsvg-2.0)
+BuildRequires:  pkgconfig(libadwaita-1)
 BuildRequires:	pkgconfig(vapigen)
 BuildRequires:	intltool
 BuildRequires:	itstool
