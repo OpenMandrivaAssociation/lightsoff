@@ -49,7 +49,7 @@ neighbors.
 %{_datadir}/glib-2.0/schemas/org.gnome.LightsOff.gschema.xml
 %{_iconsdir}/*/*/apps/org.gnome.LightsOff.*
 %{_iconsdir}/hicolor/symbolic/apps/org.gnome.LightsOff-symbolic.svg
-%{_datadir}/%{name}
-%{_datadir}/metainfo/org.gnome.LightsOff.appdata.xml
+#{_datadir}/%{name}
+%{_datadir}/metainfo/org.gnome.LightsOff.metainfo.xml
 %{_datadir}/dbus-1/services/org.gnome.LightsOff.service
 %{_mandir}/man6/lightsoff.6.*
