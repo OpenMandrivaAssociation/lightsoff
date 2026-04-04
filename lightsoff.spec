@@ -2,8 +2,8 @@
 %define _disable_rebuild_configure 1
 
 Name:		lightsoff
-Version:	48.1
-Release:	2
+Version:	50.0
+Release:	1
 Summary:	GNOME Lightsoff game
 License:	GPLv2+ and CC-BY-SA
 Group:		Games/Puzzles
@@ -17,7 +17,7 @@ BuildRequires:  pkgconfig(libadwaita-1)
 BuildRequires:	pkgconfig(vapigen)
 BuildRequires:	intltool
 BuildRequires:	itstool
-BuildRequires:	libxml2-utils
+BuildRequires:	libxml2-utils >= 2.15.2
 BuildRequires:	meson
 BuildRequires:	appstream-util
 # For fix build issue:  "error: Package `librsvg-2.0' not found in specified Vala API directories or GObject-Introspection GIR directories" (penguin)
